@@ -1,0 +1,344 @@
+/*========= Navbar =========*/
+
+#navbar {
+    /*background-color: #202020;*/
+    transition: 0.5s;
+    width: 100%;
+}
+
+
+
+#navbar .navbar-toggler {
+    outline: none !important;
+}
+
+
+.navbar-collapse.collapse.show {
+    padding: 200px 0;
+    transition: 0.5s;
+}
+
+/*========= Header =========*/
+
+.btn-more {
+    border: 2px solid #fff;
+    color: white;
+    border-radius: 0;
+    width: 200px;
+    height: 45px;
+    position: relative;
+}
+
+.btn-more img {
+    position: absolute;
+    top: 13px;
+    right: -50px;
+}
+
+.btn-more:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s ease-in-out;
+}
+
+.display-1 {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 74px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+
+.header-padding {
+    padding-top: 250px !important;
+    padding-bottom: 130px !important;
+}
+
+.paragraph-header {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    /*text-align: center;*/
+}
+
+/*========= About =========*/
+#about {
+    width: 100%;
+    background-image: url('../assets/talbetFoneAbout.png');
+    -webkit-background-size: cover;
+    background-size: cover;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+.aboutCity, .aboutConvert {
+    width: 194px !important;
+    height: 184px !important;
+}
+
+.aboutCity {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.aboutConvert {
+    position: absolute;
+    top: 103px;
+    left: 102px;
+}
+
+.about-text {
+    font-weight: bold;
+    line-height: 147px;
+    color: white;
+    box-sizing: border-box;
+    border: 2px solid white;
+    padding: 42px 55px;
+    width: 100%;
+}
+
+.about-text > * {
+    font-size: 30px;
+}
+
+.about-who {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 147px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.aboutPic {
+    width: 160px;
+    margin: 0 0 320px 50px;
+}
+
+.prefName {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+/*========= Portfolio =========*/
+
+.carousel-control-next, .carousel-control-prev {
+    width: 60px;
+    height: 60px;
+    top: 30%;
+    opacity: 1;
+}
+
+.carousel-control-next {
+    right: -15%;
+}
+
+.carousel-control-prev {
+    left: -15%;
+}
+
+.container {
+    position: relative;
+}
+
+#portfolio .link > * {
+    text-decoration: underline;
+}
+
+#portfolio .link {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+#portfolio #carousel {
+    margin: 0 auto;
+    width: 80% !important;
+}
+
+/*========= Service =========*/
+
+#services {
+    background-image: url('../assets/serviceBG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 120px 0;
+    position: relative;
+}
+
+.section-title {
+    font-weight: lighter;
+}
+
+
+.reptilia {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.fish {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.service-info > * {
+    color: white !important;
+}
+
+.service-info a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+/*========= Clients =========*/
+
+#clients {
+    background-color: #fff;
+    position: relative;
+    padding: 0;
+
+}
+
+.clients {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.clientCar {
+    /*width: 100px;*/
+    height: 100px;
+    margin: 0 auto;
+    /*float: none !important;*/
+}
+
+
+.pureCarBtn {
+    outline: none !important;
+    position: absolute;
+    top: 40%;
+}
+
+.pureCarBtn-prev {
+    left: 0;
+}
+
+.pureCarBtn-next {
+    right: 0;
+}
+
+
+.pureCarBtn:focus {
+    box-shadow: none;
+}
+
+
+/*========= Contacts =========*/
+
+
+.subBtn {
+    background-color: #000;
+    color: #fff;
+    border: 0 !important;
+    border-radius: 0 !important;
+    padding: 5px 50px;
+}
+
+#map {
+    background-color: #fff;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/*========= Contacts =========*/
+
+#footer {
+    background-color: #fff;
+    height: 30px;
+    color: black !important;
+}
+
+/*========= Desktop =========*/
+
+@media all and (min-width: 1140px) {
+    .display-1 {
+        font-size: 205px !important;
+    }
+
+    .paragraph-header {
+        font-style: normal;
+        font-weight: bold !important;
+        font-size: 50px !important;
+        line-height: 74px !important;
+    }
+
+    #about {
+        width: 100%;
+        background-image: url('../assets/about.png');
+        -webkit-background-size: cover;
+        background-size: cover;
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+    }
+
+    #portfolio #carousel {
+        width: 100% !important;
+    }
+
+    .carousel-control-next {
+        right: -10%;
+        top: 42%;
+    }
+
+    .carousel-control-prev {
+        left: -10%;
+        top: 42%;
+    }
+
+    .navbar-collapse.collapse.show {
+        padding: 0;
+    }
+
+    .about-who {
+        font-size: 100px;
+        margin-top: 550px;
+    }
+
+    .aboutPic {
+        width: 100%;
+        margin: 0 auto 0 auto;
+    }
+
+    #clients {
+        background-color: #fff;
+        position: relative;
+        padding: 158px 0;
+
+    }
+
+    .service-info h3 {
+        margin-top: 20px;
+        font-size: 28px !important;
+        font-weight: bold !important;
+    }
+
+}
+
+/*========= Tablet =========*/
+@media all and (min-width: 768px) {
+    .display-1 {
+        font-size: 120px;
+    }
+
+    .service-info h3 {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: bold !important;
+    }
+}

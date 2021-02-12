@@ -1,0 +1,34 @@
+{
+    "Header": {
+
+        "title": "TECH YARD",
+        "paragraph": "Creative thinking never ends"
+    },
+    "About": {
+        "paragraph1": "We are a web & app development company that provides excellent solutions to your problems pushing your business forward.",
+        "paragraph2": "Our team consists of senior developers to deliver projects on time and maintain high code standards.",
+        "Why": [
+            "Lorem ipsum dolor",
+            "Tempor incididunt",
+            "Lorem ipsum dolor",
+            "Incididunt ut labore"
+        ],
+        "Why2": [
+            "Aliquip ex ea commodo",
+            "Lorem ipsum dolor",
+            "Exercitation ullamco",
+            "Lorem ipsum dolor"
+        ]
+    },
+    "Portfolio": {
+      "title": "Our cases",
+      "text": "Projects that brought the desired result.",
+      "paragraph": "We have implemented dozens of applications. We know how to get results. Therefore, we openly tell our clients - use our experience to your advantage."
+    },
+    "Contact": {
+        "address": "USA, California, 8 block",
+        "phone": "1 (870) 463-7777",
+        "email": "techyard@info.uz",
+        "workHours": "11:00 - 19:00"
+    }
+}

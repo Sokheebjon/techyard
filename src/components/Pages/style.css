@@ -1,0 +1,12 @@
+#main {
+    background-image: url('../../assets/pageMainImage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.m-done {
+    padding-top: 400px;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
